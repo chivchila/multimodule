@@ -1,9 +1,11 @@
+
 allprojects {
     //Add configuration here
 }
 
 subprojects {
     apply plugin: 'java'
+    apply plugin: 'maven'
 
     repositories {
         mavenCentral()
